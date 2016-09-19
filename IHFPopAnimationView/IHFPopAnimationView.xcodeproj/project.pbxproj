@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3733CB71D598B3E00E4BDBA /* UIImage+blur.m in Sources */ = {isa = PBXBuildFile; fileRef = D3733CB61D598B3E00E4BDBA /* UIImage+blur.m */; };
+		D3733CC81D5C535D00E4BDBA /* UIViewController+IHFPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = D3733CC71D5C535D00E4BDBA /* UIViewController+IHFPopup.m */; };
+		D3DC057E1D50874200B2022A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DC057D1D50874200B2022A /* main.m */; };
+		D3DC05811D50874200B2022A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DC05801D50874200B2022A /* AppDelegate.m */; };
+		D3DC05841D50874200B2022A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DC05831D50874200B2022A /* ViewController.m */; };
+		D3DC05871D50874200B2022A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DC05851D50874200B2022A /* Main.storyboard */; };
+		D3DC05891D50874200B2022A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DC05881D50874200B2022A /* Assets.xcassets */; };
+		D3DC058C1D50874200B2022A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DC058A1D50874200B2022A /* LaunchScreen.storyboard */; };
+		D3DC05971D50874200B2022A /* IHFPopAnimationViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DC05961D50874200B2022A /* IHFPopAnimationViewTests.m */; };
+		D3DC05A21D50874200B2022A /* IHFPopAnimationViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DC05A11D50874200B2022A /* IHFPopAnimationViewUITests.m */; };
+		D3DC05B41D50875B00B2022A /* IHFPopAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DC05B11D50875B00B2022A /* IHFPopAnimationView.m */; };
+		D3DC05B51D50875B00B2022A /* IHFPopStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DC05B31D50875B00B2022A /* IHFPopStyle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3DC05931D50874200B2022A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3DC05711D50874200B2022A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3DC05781D50874200B2022A;
+			remoteInfo = IHFPopAnimationView;
+		};
+		D3DC059E1D50874200B2022A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3DC05711D50874200B2022A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3DC05781D50874200B2022A;
+			remoteInfo = IHFPopAnimationView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3733CB51D598B3E00E4BDBA /* UIImage+blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+blur.h"; sourceTree = "<group>"; };
+		D3733CB61D598B3E00E4BDBA /* UIImage+blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+blur.m"; sourceTree = "<group>"; };
+		D3733CC61D5C535D00E4BDBA /* UIViewController+IHFPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IHFPopup.h"; sourceTree = "<group>"; };
+		D3733CC71D5C535D00E4BDBA /* UIViewController+IHFPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IHFPopup.m"; sourceTree = "<group>"; };
+		D3DC05791D50874200B2022A /* IHFPopAnimationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IHFPopAnimationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DC057D1D50874200B2022A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3DC057F1D50874200B2022A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3DC05801D50874200B2022A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3DC05821D50874200B2022A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3DC05831D50874200B2022A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3DC05861D50874200B2022A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3DC05881D50874200B2022A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3DC058B1D50874200B2022A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3DC058D1D50874200B2022A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DC05921D50874200B2022A /* IHFPopAnimationViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IHFPopAnimationViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DC05961D50874200B2022A /* IHFPopAnimationViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IHFPopAnimationViewTests.m; sourceTree = "<group>"; };
+		D3DC05981D50874200B2022A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DC059D1D50874200B2022A /* IHFPopAnimationViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IHFPopAnimationViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DC05A11D50874200B2022A /* IHFPopAnimationViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IHFPopAnimationViewUITests.m; sourceTree = "<group>"; };
+		D3DC05A31D50874200B2022A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DC05B01D50875B00B2022A /* IHFPopAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFPopAnimationView.h; sourceTree = "<group>"; };
+		D3DC05B11D50875B00B2022A /* IHFPopAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFPopAnimationView.m; sourceTree = "<group>"; };
+		D3DC05B21D50875B00B2022A /* IHFPopStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFPopStyle.h; sourceTree = "<group>"; };
+		D3DC05B31D50875B00B2022A /* IHFPopStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFPopStyle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3DC05761D50874200B2022A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DC058F1D50874200B2022A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DC059A1D50874200B2022A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3733CC51D5C532700E4BDBA /* IHFPopController */ = {
+			isa = PBXGroup;
+			children = (
+				D3733CC61D5C535D00E4BDBA /* UIViewController+IHFPopup.h */,
+				D3733CC71D5C535D00E4BDBA /* UIViewController+IHFPopup.m */,
+			);
+			path = IHFPopController;
+			sourceTree = "<group>";
+		};
+		D3DC05701D50874200B2022A = {
+			isa = PBXGroup;
+			children = (
+				D3DC057B1D50874200B2022A /* IHFPopAnimationView */,
+				D3DC05951D50874200B2022A /* IHFPopAnimationViewTests */,
+				D3DC05A01D50874200B2022A /* IHFPopAnimationViewUITests */,
+				D3DC057A1D50874200B2022A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3DC057A1D50874200B2022A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC05791D50874200B2022A /* IHFPopAnimationView.app */,
+				D3DC05921D50874200B2022A /* IHFPopAnimationViewTests.xctest */,
+				D3DC059D1D50874200B2022A /* IHFPopAnimationViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3DC057B1D50874200B2022A /* IHFPopAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				D3733CC51D5C532700E4BDBA /* IHFPopController */,
+				D3DC05AF1D50875B00B2022A /* IHFPopAnimationView */,
+				D3DC057F1D50874200B2022A /* AppDelegate.h */,
+				D3DC05801D50874200B2022A /* AppDelegate.m */,
+				D3DC05821D50874200B2022A /* ViewController.h */,
+				D3DC05831D50874200B2022A /* ViewController.m */,
+				D3DC05851D50874200B2022A /* Main.storyboard */,
+				D3DC05881D50874200B2022A /* Assets.xcassets */,
+				D3DC058A1D50874200B2022A /* LaunchScreen.storyboard */,
+				D3DC058D1D50874200B2022A /* Info.plist */,
+				D3DC057C1D50874200B2022A /* Supporting Files */,
+			);
+			path = IHFPopAnimationView;
+			sourceTree = "<group>";
+		};
+		D3DC057C1D50874200B2022A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC057D1D50874200B2022A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3DC05951D50874200B2022A /* IHFPopAnimationViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC05961D50874200B2022A /* IHFPopAnimationViewTests.m */,
+				D3DC05981D50874200B2022A /* Info.plist */,
+			);
+			path = IHFPopAnimationViewTests;
+			sourceTree = "<group>";
+		};
+		D3DC05A01D50874200B2022A /* IHFPopAnimationViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC05A11D50874200B2022A /* IHFPopAnimationViewUITests.m */,
+				D3DC05A31D50874200B2022A /* Info.plist */,
+			);
+			path = IHFPopAnimationViewUITests;
+			sourceTree = "<group>";
+		};
+		D3DC05AF1D50875B00B2022A /* IHFPopAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC05B01D50875B00B2022A /* IHFPopAnimationView.h */,
+				D3DC05B11D50875B00B2022A /* IHFPopAnimationView.m */,
+				D3DC05B21D50875B00B2022A /* IHFPopStyle.h */,
+				D3DC05B31D50875B00B2022A /* IHFPopStyle.m */,
+				D3733CB51D598B3E00E4BDBA /* UIImage+blur.h */,
+				D3733CB61D598B3E00E4BDBA /* UIImage+blur.m */,
+			);
+			path = IHFPopAnimationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3DC05781D50874200B2022A /* IHFPopAnimationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DC05A61D50874200B2022A /* Build configuration list for PBXNativeTarget "IHFPopAnimationView" */;
+			buildPhases = (
+				D3DC05751D50874200B2022A /* Sources */,
+				D3DC05761D50874200B2022A /* Frameworks */,
+				D3DC05771D50874200B2022A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IHFPopAnimationView;
+			productName = IHFPopAnimationView;
+			productReference = D3DC05791D50874200B2022A /* IHFPopAnimationView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3DC05911D50874200B2022A /* IHFPopAnimationViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DC05A91D50874200B2022A /* Build configuration list for PBXNativeTarget "IHFPopAnimationViewTests" */;
+			buildPhases = (
+				D3DC058E1D50874200B2022A /* Sources */,
+				D3DC058F1D50874200B2022A /* Frameworks */,
+				D3DC05901D50874200B2022A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3DC05941D50874200B2022A /* PBXTargetDependency */,
+			);
+			name = IHFPopAnimationViewTests;
+			productName = IHFPopAnimationViewTests;
+			productReference = D3DC05921D50874200B2022A /* IHFPopAnimationViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3DC059C1D50874200B2022A /* IHFPopAnimationViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DC05AC1D50874200B2022A /* Build configuration list for PBXNativeTarget "IHFPopAnimationViewUITests" */;
+			buildPhases = (
+				D3DC05991D50874200B2022A /* Sources */,
+				D3DC059A1D50874200B2022A /* Frameworks */,
+				D3DC059B1D50874200B2022A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3DC059F1D50874200B2022A /* PBXTargetDependency */,
+			);
+			name = IHFPopAnimationViewUITests;
+			productName = IHFPopAnimationViewUITests;
+			productReference = D3DC059D1D50874200B2022A /* IHFPopAnimationViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3DC05711D50874200B2022A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = chenjiasong;
+				TargetAttributes = {
+					D3DC05781D50874200B2022A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D3DC05911D50874200B2022A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D3DC05781D50874200B2022A;
+					};
+					D3DC059C1D50874200B2022A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D3DC05781D50874200B2022A;
+					};
+				};
+			};
+			buildConfigurationList = D3DC05741D50874200B2022A /* Build configuration list for PBXProject "IHFPopAnimationView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3DC05701D50874200B2022A;
+			productRefGroup = D3DC057A1D50874200B2022A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3DC05781D50874200B2022A /* IHFPopAnimationView */,
+				D3DC05911D50874200B2022A /* IHFPopAnimationViewTests */,
+				D3DC059C1D50874200B2022A /* IHFPopAnimationViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3DC05771D50874200B2022A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DC058C1D50874200B2022A /* LaunchScreen.storyboard in Resources */,
+				D3DC05891D50874200B2022A /* Assets.xcassets in Resources */,
+				D3DC05871D50874200B2022A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DC05901D50874200B2022A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DC059B1D50874200B2022A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3DC05751D50874200B2022A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DC05841D50874200B2022A /* ViewController.m in Sources */,
+				D3DC05B41D50875B00B2022A /* IHFPopAnimationView.m in Sources */,
+				D3733CC81D5C535D00E4BDBA /* UIViewController+IHFPopup.m in Sources */,
+				D3733CB71D598B3E00E4BDBA /* UIImage+blur.m in Sources */,
+				D3DC05811D50874200B2022A /* AppDelegate.m in Sources */,
+				D3DC05B51D50875B00B2022A /* IHFPopStyle.m in Sources */,
+				D3DC057E1D50874200B2022A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DC058E1D50874200B2022A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DC05971D50874200B2022A /* IHFPopAnimationViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DC05991D50874200B2022A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DC05A21D50874200B2022A /* IHFPopAnimationViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3DC05941D50874200B2022A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3DC05781D50874200B2022A /* IHFPopAnimationView */;
+			targetProxy = D3DC05931D50874200B2022A /* PBXContainerItemProxy */;
+		};
+		D3DC059F1D50874200B2022A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3DC05781D50874200B2022A /* IHFPopAnimationView */;
+			targetProxy = D3DC059E1D50874200B2022A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3DC05851D50874200B2022A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3DC05861D50874200B2022A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3DC058A1D50874200B2022A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3DC058B1D50874200B2022A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3DC05A41D50874200B2022A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3DC05A51D50874200B2022A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3DC05A71D50874200B2022A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IHFPopAnimationView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IHEFE-COM.IHFPopAnimationView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3DC05A81D50874200B2022A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IHFPopAnimationView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IHEFE-COM.IHFPopAnimationView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3DC05AA1D50874200B2022A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IHFPopAnimationViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IHEFE-COM.IHFPopAnimationViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IHFPopAnimationView.app/IHFPopAnimationView";
+			};
+			name = Debug;
+		};
+		D3DC05AB1D50874200B2022A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IHFPopAnimationViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IHEFE-COM.IHFPopAnimationViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IHFPopAnimationView.app/IHFPopAnimationView";
+			};
+			name = Release;
+		};
+		D3DC05AD1D50874200B2022A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IHFPopAnimationViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IHEFE-COM.IHFPopAnimationViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IHFPopAnimationView;
+			};
+			name = Debug;
+		};
+		D3DC05AE1D50874200B2022A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IHFPopAnimationViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IHEFE-COM.IHFPopAnimationViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IHFPopAnimationView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3DC05741D50874200B2022A /* Build configuration list for PBXProject "IHFPopAnimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DC05A41D50874200B2022A /* Debug */,
+				D3DC05A51D50874200B2022A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DC05A61D50874200B2022A /* Build configuration list for PBXNativeTarget "IHFPopAnimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DC05A71D50874200B2022A /* Debug */,
+				D3DC05A81D50874200B2022A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DC05A91D50874200B2022A /* Build configuration list for PBXNativeTarget "IHFPopAnimationViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DC05AA1D50874200B2022A /* Debug */,
+				D3DC05AB1D50874200B2022A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DC05AC1D50874200B2022A /* Build configuration list for PBXNativeTarget "IHFPopAnimationViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DC05AD1D50874200B2022A /* Debug */,
+				D3DC05AE1D50874200B2022A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3DC05711D50874200B2022A /* Project object */;
+}
