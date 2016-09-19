@@ -29,11 +29,14 @@
 }
 
 - (void)didClickpopAnimationBtn:(UIButton *)sender {
-    [self popupView];
+    [self popDefaultView];
 }
 
 - (void)popDefaultView {
-    
+    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    view.backgroundColor = [UIColor redColor];
+    IHFPopAnimationView *popView = [IHFPopAnimationView presentPopAnimationView:view];
+    popView.delegate = self;
 }
 
 - (void)popupView {
